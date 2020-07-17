@@ -43,4 +43,14 @@ apuntes_algoritmos_python.txt
             ...
             def añadir_valorC(self,numeroC)
                 self.valorC += numeroC #suma a valorC el numeroC (suma: +=, resta -=)
-            
+
+Decomposición: partir un problema en partes mas sencillos que son clases.
+    Ejemplo: decomposicion.txt
+
+Abstracción: enfocarnos en la informacion relevante
+Separa info central (variables publicos) de detalles secundarios (_variables_privadas)
+La interfaz con el usuario requiere de variables y métodos PUBLICOS, pero si no le interesa se pone en privado con el _metodo
+    Ejemplo: abstracciones.py
+
+
+           
