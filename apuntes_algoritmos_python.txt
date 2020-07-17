@@ -1,1 +1,21 @@
 apuntes_algoritmos_python.txt
+
+1.  Programación orientada a objetos en Python
+
+    Uso de clases para organizar programas en modulos y abstracciones de datos
+    En este curso se usan clases orientadas a objetos.
+    Objeto: agrupación de datos y métodos que operan esos datos.
+
+    Las clases permiten crear nuevos "tipos" de datos que contienen información arbitraria sobre un objeto.
+    Las clases solo proveen la estructura para construir objetos. Señalan las propiedades del objeto, pero no son ninguno en concreto.
+    
+    Para crear objetos especificos se usan Instancias.
+
+    - Clases: formulario 
+    - Instancias: cada copia rellena de datos del formulario
+
+    Pueden existir varias instancias diferentes que pertenezcan a la misma clase
+
+    para definir una clase se usa el keyword : class
+    
+    Ejemplo: clases_hotel.py
