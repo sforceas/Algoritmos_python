@@ -14,8 +14,33 @@ apuntes_algoritmos_python.txt
     - Clases: formulario 
     - Instancias: cada copia rellena de datos del formulario
 
-    Pueden existir varias instancias diferentes que pertenezcan a la misma clase
-
-    para definir una clase se usa el keyword : class
+    Pueden existir varias instancias diferentes que pertenezcan a la misma clase.
+    para definir una clase se usa el keyword : class.
+    
+    Ejemplo
+            class Hotel:
+                <atributos>
+            hotel1 = Hotel(<atributos>)
     
     Ejemplo: clases_hotel.py
+
+    Atributos de instancia: son las caracteristicas de cada objeto(instancia) creado a partir de una clase.
+    Se usa el método especial "def__init__" para definir los atributos. Se definen con el parámetro self.<nombre_atributo> = <nombre_variable>
+
+    Ejemplo:
+            class Hotel:
+
+                def __init__ (self,valorA,valorB):
+                    self.valorA = numeroA
+                    self.valorB = numeroB
+            hotel1 = Hotel (numeroA=1,numeroB=2)
+
+    Métodos de instancia: realizan operaciones con los atributos de la clase. Equivalen a funciones dentro de la definicion de la clase y reciben self. como primer argumento.
+
+    Ejemplo:
+
+            class Hotel:
+            ...
+            def añadir_valorC(self,numeroC)
+                self.valorC += numeroC #suma a valorC el numeroC (suma: +=, resta -=)
+            
