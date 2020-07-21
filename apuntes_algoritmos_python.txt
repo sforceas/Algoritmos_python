@@ -52,5 +52,8 @@ Separa info central (variables publicos) de detalles secundarios (_variables_pri
 La interfaz con el usuario requiere de variables y métodos PUBLICOS, pero si no le interesa se pone en privado con el _metodo
     Ejemplo: abstracciones.py
 
+Ecampsulación: agrupar datos y comportamiento en un mismo lugar importante en el Defensive Programing para proteger el acceso y modificacion de los datos.
+    Ejemplo: encapsulacion.py
+
 
            
