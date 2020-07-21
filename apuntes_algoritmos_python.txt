@@ -53,7 +53,27 @@ La interfaz con el usuario requiere de variables y métodos PUBLICOS, pero si no
     Ejemplo: abstracciones.py
 
 Ecampsulación: agrupar datos y comportamiento en un mismo lugar importante en el Defensive Programing para proteger el acceso y modificacion de los datos.
+ Se usan los gerretrs: @property y setter: @nombre_atributo.setter antes de sus respectivas funciones.
+
+ 
     Ejemplo: encapsulacion.py
 
 
-           
+Herencia: nos permite modelar una jerarquia de objetos y compartir cierto comportamiento. Ayuda a organizar codigo. Los atributos de una superclase se hereedan a las subclase, permitiendo especializar cada subclase
+ SUPERCLASE 
+    |____SUBCLASE1
+    |        |____SUB-___SUBCLASE1
+    |
+    |____SUBCLASE2
+
+    Ejemplo: herencia.py
+             herencia_celulas.py
+            
+Polimorfismos:
+ En computación, polimorfismo describe el concepto de que objetos de diferentes tupos pueden ser accedidos a través de la misma interfaz. Dicho de otra forma, es la habilidad de procesar objetos de forma distinta dependiendo de su tipo de dato o clase. Esto es la habilidad redefinir métodos para clases derivadas.
+ Por ejemplo, dada la clase forma, el polimorfismo le permite al programador definir métodos para encontrar el área según la clase derivada, sea circulo,    rectángulos, cuadrados, etc. Sin importar que forma sea el objeto, el área debería poder hallar el resultado correcto si se aplica el polimorfismo correctamente.
+
+ • En el dinámico la creación del objeto ocurre en el run-time. Se le conoce también como ‘late-binding’ o ‘method overriding’ en diferentes clases (sobre escritura de método)
+ • En el caso del estático ocurre en el compile-time. Se le conoce también como ‘early binding’ o method overloading en diferentes clases (sobrecarga de métodos)
+ Python sin embargo no soporta la sobrecarga de métodos por default, por lo que no es tan necesario tener en cuenta estos tipos de polimorfismo.   
+    Ejemplo: polimorfismos.py
