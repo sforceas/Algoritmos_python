@@ -100,3 +100,49 @@ Polimorfismos:
  Buscar elementos en una lista ORDENADA de la forma mas eficiente. usar la función lista_ordenada = sort(lista_desordenada).
  
     Ejemplo:  busqueda_lineal.py
+
+**** Ordenamiento de burbuja ****
+
+ El primer algoritmo de ordenamiento que veremos es el ordenamiento de burbuja. Es un algoritmo que recorre repetidamente una lista que necesita ordenarse. Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Este procedimiento se repite hasta que no se requiere mas intercambios, lo que indica que la lista se encuentra ordenada. 
+    Ejembplo: ordenamiento_burbuja.py
+
+**** Ordenamiento por interción *****
+ El ordenamiento por inserción es uno de los algoritmos más comunes que estudian
+ los Científicos del Cómputo. Es intuitivo y fácil de implementar, pero es muy
+ ineficiente para listas de gran tamaño.
+
+ Una de las características del ordenamiento por inserción es que ordena en “su
+ lugar.” Es decir, no requiere memoria adicional para realizar el ordenamiento
+ ya que simplemente modifican los valores en memoria.
+
+    Ejemplo: ordenamiento_insercion.py 
+
+**** Ordenamiento por mezcla (merge sort) ****
+ Inventado por J.F. Newman. Ordenamiento muy eficiente n*log(n)
+  Ejemplo: ordenamiento_mezcla
+
+**** Ambientes virtuales *****
+ Es importante usar ambientes virtuales para cada proyecto y así evitar contaminar el pc con librerias instaladas directamente. Estas librerias se pueden usar mediante el comando pip install (ver webstore de pip). 
+ 
+ Para crear un ambiente virtual, donde se instalaran las librerias únicamente para ese proyecto se inicia en la terminal con el comando:
+    
+    python3.8 -m venv <nombre_del_ambiente_virtual>  # Crea el ambiente virtual
+    source env/bin/activate # Inicializa el ambiente virtual.
+    deactivate # Cierra el ambiente virtual
+    pip install <nombre_de_libreria> # instala librerias
+    pip3 install <nombre_de_libreria> #alternativa para terminal zsh
+
+
+
+***** Graficado de datos ******
+ Libreria "bokeh" --> pip3 install bokeh
+ bokeh nos permite exportar a formatos html, notebooks, imagenes etc. Tambien compatible con API y Django. docs.bokeh.org
+
+ Ejemplo:
+    graficado_bokeh.py
+
+ Libreria "pandas" --> pip install pandas
+ pandas permite trabajar, importa y exportar archivos de datos (csv) de manera muy intuitiva.
+ 
+ Ejemplo:
+    ensayo_traccion.py
