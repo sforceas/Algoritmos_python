@@ -146,3 +146,11 @@ Polimorfismos:
  
  Ejemplo:
     ensayo_traccion.py
+
+***** Optimización ******
+ Busqueda de valores máximos o mínimos dentro de una función dentro de unos parámetros: ejemplo de buscadores de vuelos (expedia) o gestion de trafico (Waze)
+ Un problema es usar algoritmos con complejidades elevadas. Ejemplo: traveling salesman.
+ Problema: P (polinominales) vs np (no polinominales)
+
+ El problema de la mochila: la mochila tiene una capacidad limitada y no puede albergar todos los objetos, por lo que se busca el mázimo valor
+    Ejemplo: optimizacion_mochila.py
